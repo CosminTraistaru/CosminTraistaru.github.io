@@ -129,6 +129,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-github-metadata
+  jekyll-seo-tag
   sprockets
 
 BUNDLED WITH

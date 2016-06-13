@@ -34,5 +34,26 @@
     </div>
 
   </div>
+  <amp-user-notification layout=nodisplay id="amp-user-notification1">
+      This website uses cookies to ensure you get the best experience on our website.
+    <button class="button" on="tap:amp-user-notification1.dismiss">I accept</button>
+  </amp-user-notification>
+
+  <!--Google Analytics-->
+  <amp-analytics type="googleanalytics" id="analytics1">
+    <script type="application/json">
+    {
+      "vars": {
+        "account": "UA-3090430-2"
+      },
+      "triggers": {
+        "trackPageview": {
+          "on": "visible",
+          "request": "pageview"
+        }
+      }
+    }
+    </script>
+  </amp-analytics>
 
 </footer>
