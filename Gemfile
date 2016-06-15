@@ -3,3 +3,4 @@ gem 'github-pages', group: :jekyll_plugins
 gem 'sprockets'
 gem 'jekyll-github-metadata'
 gem 'jekyll-seo-tag'
+gem 'jekyll-sitemap'
