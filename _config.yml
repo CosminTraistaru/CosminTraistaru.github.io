@@ -20,7 +20,7 @@ facebook:
   publisher: http://fb.com/CosminTraistaru
   app_id: 299475630067491
 
-google-site-verification: YrB36JwKLcBsz30KxJJDQaIMXIXwCZ20znMwb6vsj3A
+google_site_verification: YrB36JwKLcBsz30KxJJDQaIMXIXwCZ20znMwb6vsj3A
 
 # Build settings
 markdown: kramdown
