@@ -9,6 +9,15 @@
       "name": "{{ site.author.name }}"
     },
   "description": "{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}",
-  "publisher": "{{ site.author.name }}"
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ site.author.name }}",
+    "logo": {
+        "@type": "ImageObject",
+        "url": "{{ site.logo | prepend: site.url }}",
+        "width": 600,
+        "height": 60
+    }
+  }
 }
 </script>
