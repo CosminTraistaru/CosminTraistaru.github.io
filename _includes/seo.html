@@ -8,13 +8,6 @@
 <meta property="article:publisher" content="{{ site.facebook.publisher }}" />
 <meta property="fb:app_id" content="{{ site.facebook.app_id }}" />
 <meta name="google-site-verification" content="{{ site.google_site_verification }}" />
-{% if page.layout == 'post' %}
-{% include json-ld-post.html %}
-{% endif %}
-
-{% if page.layout == 'default' %}
-{% include json-ld-page.html %}
-{% endif %}
 
 <script type="application/ld+json">
 {
@@ -30,3 +23,12 @@
   ]
 }
 </script>
+
+{% if page.layout == 'post' %}
+{% include json-ld-post.html %}
+{% endif %}
+
+{% if page.layout == 'default' %}
+{% include json-ld-page.html %}
+{% endif %}
+
