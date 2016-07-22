@@ -1,0 +1,14 @@
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "WebSite",
+  "url": "{{ page.url | prepend: site.url  }}",
+  "name": "{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}",
+   "author": {
+      "@type": "Person",
+      "name": "{{ site.author.name }}"
+    },
+  "description": "{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}",
+  "publisher": "{{ site.author.name }}"
+}
+</script>

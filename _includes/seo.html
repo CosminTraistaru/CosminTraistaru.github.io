@@ -1,0 +1,32 @@
+<title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+<link rel="canonical" href="{{ page.url | prepend: site.url }}" />
+<meta property="og:description" content="" />
+<meta property="og:url" content="{{ page.url | prepend: site.url }}"  />
+<meta property="og:site_name" content="{{ site.title }}" />
+<meta property="fb:admins" content="{{ site.facebook.admins }}" />
+<meta property="article:publisher" content="{{ site.facebook.publisher }}" />
+<meta property="fb:app_id" content="{{ site.facebook.app_id }}" />
+<meta name="google-site-verification" content="{{ site.google_site_verification }}" />
+{% if page.layout == 'post' %}
+{% include json-ld-post.html %}
+{% endif %}
+
+{% if page.layout == 'default' %}
+{% include json-ld-page.html %}
+{% endif %}
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Person",
+  "name" : "{{ site.author.name }}",
+  "url" : "{{ site.url }}",
+  "sameAs" : [
+    "{{ site.author.facebook_url }}",
+    "{{ site.author.linkedin_url }}",
+    "{{ site.author.github_url }}",
+    "{{ site.author.googleplus_url }}"
+  ]
+}
+</script>

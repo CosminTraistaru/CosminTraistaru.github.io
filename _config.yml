@@ -8,12 +8,21 @@
 # Site settings
 title: Cosmin Trăistaru
 email: Cosmin @ Traista . ru
-description: > # this means to ignore newlines until "baseurl:"
+description: "Personal Website/blog/something. Just trying stuff out."
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://cosmin.traista.ru" # the base hostname & protocol for your site
 github_username: CosminTraistaru
 twitter_username: CosminTraistaru
+
+author:
+  name: Cosmin Trăistaru
+  github: CosminTraistaru
+  github_url: https://github.com/CosminTraistaru
+  facebook_url: https://www.facebook.com/cosmin.traistaru
+  linkedin_url: https://ro.linkedin.com/in/cosmintraistaru
+  googleplus_url: https://plus.google.com/+CosminTraistaru/
+
 
 facebook:
   admins: CosminTrăistaru
@@ -26,5 +35,4 @@ google_site_verification: YrB36JwKLcBsz30KxJJDQaIMXIXwCZ20znMwb6vsj3A
 markdown: kramdown
 
 gems:
-  - jekyll-seo-tag
   - jekyll-sitemap
