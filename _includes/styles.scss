@@ -67,9 +67,19 @@ $on-laptop:        1000px;
 
 // Google AMP Notifications
 
+.wrapper-footer {
+  margin-top: 30px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  background-color: #eeeeee;
+  text-align: center;
+  padding: 10px 0;
+}
+
 footer {
   margin-bottom: 50px;
 }
+
 amp-user-notification {
   padding: 8px;
   background: white;

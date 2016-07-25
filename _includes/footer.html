@@ -12,21 +12,21 @@
         </ul>
       </div>
 
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
+      <!--<div class="footer-col footer-col-2">-->
+        <!--<ul class="social-media-list">-->
+          <!--{% if site.github_username %}-->
+          <!--<li>-->
+            <!--{% include icon-github.html username=site.github_username %}-->
+          <!--</li>-->
+          <!--{% endif %}-->
 
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
+          <!--{% if site.twitter_username %}-->
+          <!--<li>-->
+            <!--{% include icon-twitter.html username=site.twitter_username %}-->
+          <!--</li>-->
+          <!--{% endif %}-->
+        <!--</ul>-->
+      <!--</div>-->
 
       <div class="footer-col footer-col-3">
         <p>{{ site.description }}</p>
@@ -34,6 +34,19 @@
     </div>
 
   </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          <a href="{{ site.author.github_url | prepend: site.url }}">
+            <span class="icon icon--github">
+                {% include icon-github.svg %}
+            </span>
+          </a>
+          <!--{% include icon-github.html username=site.github_username %}-->
+        </footer>
+      </div>
+    </div>
   <amp-user-notification layout=nodisplay id="amp-user-notification1">
       This website uses cookies to ensure you get the best experience on our website.
     <button class="button" on="tap:amp-user-notification1.dismiss">I accept</button>
