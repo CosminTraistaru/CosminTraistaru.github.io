@@ -2,16 +2,14 @@
 <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 <link rel="canonical" href="{{ page.url | prepend: site.url }}" />
 <!-- Facebook -->
-<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"  />
-<meta property="og:url" content="{{ page.url | prepend: site.url }}"  />
-<meta property="og:site_name" content="{{ site.title }}" />
-<meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
 <meta property="fb:app_id" content="{{ site.facebook.app_id }}" />
+<meta property="og:url" content="{{ page.url | prepend: site.url }}"  />
+<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"  />
 <meta property="og:image" content="{{ page.image.location | prepend: site.url }}"  />
-<meta property="og:image:secure_url" content="{{ page.image.location | prepend: site.url }}"  />
 <meta property="og:image:width" content="{{ page.image.width }}"  />
 <meta property="og:image:height" content="{{ page.image.height }}"  />
-<meta property="article:publisher" content="{{ site.facebook.publisher }}" />
+<meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
+<meta property="og:site_name" content="{{ site.title }}" />
 <!-- Facebook -->
 
 <!-- Twitter -->
