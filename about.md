@@ -5,8 +5,8 @@ permalink: /about/
 image:
     location: /assets/images/CosminTraistaru.jpg
     alt: "Cosmin Trăistaru"
-    width: "1818"
-    height: "1228"
+    width: "1280"
+    height: "865"
 ---
 
 Who am i?
