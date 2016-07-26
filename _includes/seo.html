@@ -94,7 +94,7 @@
    "author": {
       "@type": "Person",
       "name": "{{ site.author.name }}"
-    },
+   },
   "description": "{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}",
   "publisher": {
     "@type": "Organization",
@@ -104,15 +104,16 @@
         "url": "{{ site.logo | prepend: site.url }}",
         "width": 600,
         "height": 60
+        }
     },
     "image": {
         "@type": "ImageObject",
         "url": "{{ page.image.location | prepend: site.url }}",
         "height": {{ page.image.height }},
         "width": {{ page.image.width }}
-    },
-  }
+    }
 }
+
 </script>
 {% endif %}
 
