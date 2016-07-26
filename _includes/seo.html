@@ -34,12 +34,18 @@
     "{{ site.author.linkedin_url }}",
     "{{ site.author.github_url }}",
     "{{ site.author.googleplus_url }}"
-  ]
+  ],
+  "image": {
+    "@type": "ImageObject",
+    "url": "{{ site.author.image.location | prepend: site.url }}",
+    "height": {{ site.author.image.height }},
+    "width": {{ site.author.image.width }}
+    }
 }
 </script>
 
 {% if page.layout == 'post' %}
-<script type="application/ld+json">
+<script type="application/ld+json">ƒ
 {
     "@context": "http://schema.org",
     "@type": "BlogPosting",

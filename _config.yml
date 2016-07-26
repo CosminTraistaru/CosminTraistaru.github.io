@@ -7,7 +7,7 @@
 
 # Site settings
 title: Cosmin Trăistaru
-email: Cosmin @ Traista . ru
+email: cosmin@traista.ru
 description: "Personal Website/blog/something. Just trying stuff out."
 
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -22,6 +22,11 @@ author:
   facebook_url: https://www.facebook.com/cosmin.traistaru
   linkedin_url: https://ro.linkedin.com/in/cosmintraistaru
   googleplus_url: https://plus.google.com/+CosminTraistaru/
+  image:
+    location: /assets/images/CosminTraistaru.jpg
+    alt: "Cosmin Trăistaru"
+    height: "1818"
+    width: "1228"
 
 
 facebook:
