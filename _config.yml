@@ -37,6 +37,3 @@ google_site_verification: YrB36JwKLcBsz30KxJJDQaIMXIXwCZ20znMwb6vsj3A
 
 # Build settings
 markdown: kramdown
-
-gems:
-  - jekyll-sitemap
