@@ -34,6 +34,7 @@ $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
+$logo-color:       black;
 // Width of the content area
 $content-width:    1000px;
 
@@ -263,16 +264,28 @@ pre {
  */
 .icon {
 
-    > svg {
-        display: inline-block;
+    svg {
+        //display: inline-block;
         width: 32px;
         height: 32px;
-        vertical-align: middle;
+        //vertical-align: middle;
 
-        path {
-            fill: $grey-color;
-        }
+        //path {
+        //    fill: $logo-color;
+        //}
     }
+}
+
+/**
+ * Logos
+ */
+
+.cls-1 {
+    fill: #231f20;
+}
+
+.cls-2 {
+    fill: #fff;
 }
 
 

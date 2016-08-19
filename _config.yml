@@ -1,10 +1,3 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
 title: Cosmin Trăistaru
 email: cosmin@traista.ru
@@ -19,6 +12,7 @@ author:
   name: Cosmin Trăistaru
   github: CosminTraistaru
   github_url: https://github.com/CosminTraistaru
+  twitter_url: https://twitter.com/CosminTraistaru
   facebook_url: https://www.facebook.com/cosmin.traistaru
   linkedin_url: https://ro.linkedin.com/in/cosmintraistaru
   googleplus_url: https://plus.google.com/+CosminTraistaru/
@@ -33,7 +27,9 @@ facebook:
   publisher: https://fb.com/CosminTraistaru
   app_id: 299475630067491
 
+google_analytics: off
 google_site_verification: YrB36JwKLcBsz30KxJJDQaIMXIXwCZ20znMwb6vsj3A
-
+yandex_verification: 7d17b4438b4970a2
+bing_verification: 6B172C70FEE194C409CD493D635473C3
 # Build settings
 markdown: kramdown
