@@ -37,8 +37,19 @@
     "{{ site.author.facebook_url }}",
     "{{ site.author.linkedin_url }}",
     "{{ site.author.github_url }}",
-    "{{ site.author.googleplus_url }}"
+    "{{ site.author.googleplus_url }}",
+    "{{ site.author.instagram_url }}"
   ],
+  "birthDate": "1987-02-23",
+  "alumniOf": {
+     "@type": "OrganizationRole",
+      "alumniOf": {
+           "@type": "CollegeOrUniversity",
+           "name": "Politehnica University of Timișoara",
+           "sameAs": "https://en.wikipedia.org/wiki/Politehnica_University_of_Timi%C8%99oara"
+      },
+      "startDate": "2006"
+  },
   "image": {
     "@type": "ImageObject",
     "url": "{{ site.author.image.location | prepend: site.url }}",
