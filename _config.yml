@@ -32,3 +32,6 @@ yandex_verification: 7d17b4438b4970a2
 bing_verification: 6B172C70FEE194C409CD493D635473C3
 # Build settings
 markdown: kramdown
+
+gems:
+  - jekyll-sitemap
