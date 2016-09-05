@@ -13,10 +13,13 @@ image:
 These are my go to questions when I get to overwhelmed about what to
 test to a feature/bug that is not well documented.
 
-What does the feature/bug should do?
-What does the implementation/fix impacts?
-Who uses this feature?
-On what browser/system should it work?
+- What does the feature/bug should do?
+
+- What does the implementation/fix impacts?
+
+- Who uses this feature?
+
+- On what browser/system should it work?
 
 I am sure that every tester out there has it's own set of questions, 
 or actions he/she prefers to do.
