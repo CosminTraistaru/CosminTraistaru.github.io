@@ -7,7 +7,6 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://cosmin.traista.ru" # the base hostname & protocol for your site
 github_username: CosminTraistaru
 twitter_username: CosminTraistaru
-disqus_name: cosmintraistaru
 
 author:
   name: Cosmin Trăistaru
