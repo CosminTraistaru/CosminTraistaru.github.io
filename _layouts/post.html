@@ -39,6 +39,6 @@ layout: default
             layout="responsive"
             sandbox="allow-scripts allow-same-origin allow-popups"
             resizable
-            src="https://s3.eu-central-1.amazonaws.com/cosmin-traistaru-amp/disqus.html#{{ page.id | replace:'/','' | replace:'-','' }}">
+            src="{{ site.CDN }}disqus.html#{{ page.id | replace:'/','' | replace:'-','' }}">
     <div overflow tabindex=0 role=button aria-label="Read more">Read more!</div>
 </amp-iframe>
