@@ -84,6 +84,7 @@
 </script>
 
 {% if page.layout == 'post' %}
+<meta property="op:markup_url" content="https://schema.org/BlogPosting" />
 <script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -124,6 +125,7 @@
 }
 </script>
 {% else %}
+<meta property="op:markup_url" content="https://schema.org/WebSite" />
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
