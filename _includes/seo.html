@@ -2,6 +2,7 @@
 <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 <link rel="canonical" href="{{ page.url | prepend: site.url }}" />
 <!-- Facebook -->
+<meta property="op:markup_url" content="https://schema.org/BlogPosting" />
 <meta property="fb:app_id" content="{{ site.facebook.app_id }}" />
 <meta property="og:url" content="{{ page.url | prepend: site.url }}"  />
 <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"  />
@@ -84,7 +85,6 @@
 </script>
 
 {% if page.layout == 'post' %}
-<meta property="op:markup_url" content="https://schema.org/BlogPosting" />
 <script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -125,7 +125,6 @@
 }
 </script>
 {% else %}
-<meta property="op:markup_url" content="https://schema.org/WebSite" />
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
