@@ -1,5 +1,11 @@
 {
- "name": "App",
+  "name": "Cosmin Trăistaru",
+  "short_name": "Cosmin",
+  "description": "Cosmin Trăistaru",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#424242",
+  "theme_color": "#424242",
  "icons": [
   {
    "src": "\/assets\/favicon\/android-icon-36x36.png",
