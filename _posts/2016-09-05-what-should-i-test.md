@@ -10,12 +10,12 @@ image:
     width: "1600"
     height: "503"
 ---
-These are my go to questions when I get to overwhelmed about what to
-test to a feature/bug that is not well documented.
+These are my go to questions when I get too overwhelmed about what to
+test for a feature/bug that is not well documented.
 
-- What does the feature/bug should do?
+- What should the feature/bug do?
 
-- What does the implementation/fix impacts?
+- What impact does the implementation/fix has on the product?
 
 - Who uses this feature?
 
