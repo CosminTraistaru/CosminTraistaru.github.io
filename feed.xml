@@ -24,7 +24,7 @@ layout: null
                 <meta charset="utf-8">
                 <title>{{ post.title }}</title>
                 <link rel="canonical" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">
-                <meta property="fb:article_style" content="{{ post.title }}">
+                <meta property="fb:article_style" content="{{ site.facebook.article_style }}">
               </head>
               <body>
                 <article>
@@ -46,7 +46,6 @@ layout: null
                   </header>
                   {{ post.content }}
                   <footer>
-                      <aside></aside>
                       <small> © {{ site.author.name }} </small>
                   </footer>
                 </article>

@@ -22,12 +22,18 @@ author:
     alt: "Cosmin Trăistaru"
     width: "1280"
     height: "865"
+logo:
+  location: /assets/images/logo.svg
+  alt: "Logo"
+  width: "1000"
+  height: "164"
 
 facebook:
   admins: CosminTrăistaru
   publisher: https://fb.com/CosminTraistaru
   app_id: 299475630067491
   page_id: 152846018510150
+  article_style : default
 google_site_verification: YrB36JwKLcBsz30KxJJDQaIMXIXwCZ20znMwb6vsj3A
 yandex_verification: 7d17b4438b4970a2
 bing_verification: 6B172C70FEE194C409CD493D635473C3
