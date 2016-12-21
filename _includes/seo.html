@@ -97,7 +97,7 @@
 	    "name": "{{ site.author.name }}",
         "logo": {
             "@type": "ImageObject",
-            "url": "{{ site.logo | prepend: site.url }}",
+            "url": "{{ site.logo.location | prepend: site.url }}",
             "width": 600,
             "height": 60
         }
