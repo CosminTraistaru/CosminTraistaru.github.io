@@ -44,5 +44,3 @@ markdown: kramdown
 
 gems:
   - jekyll-sitemap
-
-CDN: https://d2gx6y4t7t495g.cloudfront.net/
