@@ -141,9 +141,9 @@
     "name": "{{ site.author.name }}",
     "logo": {
         "@type": "ImageObject",
-        "url": "{{ site.logo | prepend: site.url }}",
-        "width": 600,
-        "height": 60
+        "url": "{{ site.logo.location | prepend: site.url }}",
+        "width": {{ site.logo.width }},
+        "height": {{ site.logo.height }}
         }
     },
     "image": {
