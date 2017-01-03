@@ -23,7 +23,7 @@ author:
     width: "1280"
     height: "865"
 logo:
-  location: /assets/images/logo.svg
+  location: /assets/images/logo.png
   alt: "Logo"
   width: "1000"
   height: "164"
