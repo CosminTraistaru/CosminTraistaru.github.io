@@ -98,9 +98,9 @@
         "logo": {
             "@type": "ImageObject",
             "url": "{{ site.logo.location | prepend: site.url }}",
-            "width": 600,
-            "height": 60
-        }
+            "width": {{ site.logo.width }},
+            "height": {{ site.logo.height }}
+         }
     },
     "image": {
         "@type": "ImageObject",
