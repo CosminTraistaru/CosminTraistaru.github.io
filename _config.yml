@@ -42,5 +42,5 @@ pintrest_verification: def08aae3a990bba060dd0cfe5259b07
 # Build settings
 markdown: kramdown
 
-gems:
+plugins:
   - jekyll-sitemap
