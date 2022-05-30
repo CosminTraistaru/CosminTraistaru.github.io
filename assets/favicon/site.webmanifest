@@ -1,6 +1,7 @@
 {
     "name": "Cosmin Trăistaru",
     "short_name": "Cosmin",
+    "start_url": "/",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
