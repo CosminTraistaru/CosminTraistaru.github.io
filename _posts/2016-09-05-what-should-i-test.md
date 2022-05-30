@@ -5,7 +5,7 @@ author: Cosmin Trăistaru
 date:   2016-09-05 07:15:07 +0300
 categories: test
 image:
-    location: /assets/images/question.jpg
+    location: /assets/images/question.webp
     alt: "What to test question"
     width: "1600"
     height: "503"

@@ -5,7 +5,7 @@ author: Cosmin Trăistaru
 date:   2016-08-23 15:47:07 +0300
 categories: selenium python pytest
 image:
-    location: /assets/images/start-project.jpg
+    location: /assets/images/start-project.webp
     alt: "Start Selenium Project"
     width: "1600"
     height: "1200"

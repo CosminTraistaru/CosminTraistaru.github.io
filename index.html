@@ -1,7 +1,7 @@
 ---
 layout: default
 image:
-    location: /assets/images/TechnologyThreeWindTurbinesOriginal.jpg
+    location: /assets/images/TechnologyThreeWindTurbinesOriginal.webp
     alt: "Landing Page Turbines"
     width: "1280"
     height: "716"
@@ -16,12 +16,14 @@ image:
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
         <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            <strong>
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+                    {{ post.title }}
+                </a>
+            </strong>
         </h2>
       </li>
     {% endfor %}
   </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>

@@ -77,8 +77,8 @@
   "image": {
     "@type": "ImageObject",
     "url": "{{ site.author.image.location | prepend: site.url }}",
-    "height": {{ site.author.image.height }},
-    "width": {{ site.author.image.width }}
+    "height": "{{ site.author.image.height }}",
+    "width": "{{ site.author.image.width }}"
     }
 }
 </script>
@@ -105,8 +105,8 @@
     "image": {
         "@type": "ImageObject",
         "url": "{{ page.image.location | prepend: site.url }}",
-        "height": {{ page.image.height }},
-        "width": {{ page.image.width }}
+        "height": "{{ page.image.height }}",
+        "width": "{{ page.image.width }}"
     },
     "headline": "{{ page.title  }}",
     "editor": "{{ site.title }}",
