@@ -1,19 +1,7 @@
-<?xml version="1.0"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-147 -70 294 345">
-<g fill="#a4c639">
-<use stroke-width="14.4" xlink:href="#b" stroke="#FFF"/>
-<use xlink:href="#a" transform="scale(-1,1)"/>
-<g id="a" stroke="#FFF" stroke-width="7.2">
-<rect rx="6.5" transform="rotate(29)" height="86" width="13" y="-86" x="14"/>
-<rect id="c" rx="24" height="133" width="48" y="41" x="-143"/>
-<use y="97" x="85" xlink:href="#c"/>
-</g>
-<g id="b">
-<ellipse cy="41" rx="91" ry="84"/>
-<rect rx="22" height="182" width="182" y="20" x="-91"/>
-</g>
-</g>
-<g stroke="#FFF" stroke-width="7.2" fill="#FFF">
-<path d="m-95 44.5h190"/><circle cx="-42" r="4"/><circle cx="42" r="4"/>
-</g>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<svg version="1.2" width="310.000000pt" height="310.000000pt" viewBox="0 0 310.000000 310.000000" preserveAspectRatio="xMidYMid meet" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg">
+  <title>bimi-svg-tiny-12-ps</title>
+  <g transform="translate(0.000000,310.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
+    <path d="M0 1550 l0 -1550 1550 0 1550 0 0 1550 0 1550 -1550 0 -1550 0 0&#xA;-1550z m2167 1044 c51 -39 63 -71 63 -169 0 -98 -12 -130 -63 -169 l-34 -26&#xA;-396 0 -397 0 -40 -40 -40 -40 0 -502 0 -501 40 -39 41 -38 396 0 396 0 34&#xA;-26 c51 -39 63 -71 63 -169 0 -98 -12 -130 -63 -169 l-34 -26 -584 0 c-555 0&#xA;-585 1 -613 19 -15 10 -37 32 -47 47 -18 28 -19 64 -19 908 l0 879 44 43 43&#xA;44 588 0 588 0 34 -26z"/>
+  </g>
 </svg>
