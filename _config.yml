@@ -1,25 +1,25 @@
 # Site settings
-title: Cosmin Trăistaru
-email: cosmin@traista.ru
+title: C
+email: c@m.c
 description: "Personal Website/blog/something. Just trying stuff out."
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://cosmin.traista.ru" # the base hostname & protocol for your site
-github_username: CosminTraistaru
-twitter_username: CosminTraistaru
+github_username: C
+twitter_username: C
 
 author:
-  name: Cosmin Trăistaru
-  github: CosminTraistaru
-  github_url: https://github.com/CosminTraistaru
-  twitter_url: https://twitter.com/CosminTraistaru
-  facebook_url: https://www.facebook.com/cosmin.traistaru
-  linkedin_url: https://ro.linkedin.com/in/cosmintraistaru
-  googleplus_url: https://plus.google.com/+CosminTraistaru/
-  instagram_url: https://www.instagram.com/CosminTraistaru/
+  name: C
+  github: C
+  github_url: 
+  twitter_url: 
+  facebook_url: 
+  linkedin_url: 
+  googleplus_url: 
+  instagram_url: 
   image:
-    location: /assets/images/CosminTraistaru.jpg
-    alt: "Cosmin Trăistaru"
+    location: /
+    alt: ""
     width: "1280"
     height: "865"
 logo:
@@ -29,8 +29,8 @@ logo:
   height: "164"
 
 facebook:
-  admins: CosminTrăistaru
-  publisher: https://fb.com/CosminTraistaru
+  admins: C
+  publisher: 
   app_id: 299475630067491
   page_id: 152846018510150
   article_style : default
